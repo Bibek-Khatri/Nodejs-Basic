@@ -7,6 +7,10 @@ app.get('/', (req, res) => {
     res.send('Hello World');
 });
 
+app.get('/users', (req, res) => {
+    res.send('Hello world');
+});
+
 app.listen(port, () => {
     console.log(`Server connected `);
 });
